@@ -105,3 +105,17 @@ console.log(y);
 for(let i=0; i <= 10; i++) {
     console.log(i);
 };
+
+//Incrementing and Decrementing inside an expression
+
+console.log("Pre - Increment");
+x = 1;
+console.log(x);         //x is 1
+console.log(10 * ++x);  //add 1 to x then print 10 * x 
+console.log(x);
+
+console.log("Post - Increment");
+y = 1;
+console.log(y);
+console.log(10 * y++);  //print 10 * y and then add 1 to y
+console.log(y);
