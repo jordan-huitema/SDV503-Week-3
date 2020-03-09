@@ -148,5 +148,14 @@ console.log(f);
 const firstWord = "Hello";
 const secondWord ="World";
 
-console.log(firstWord + secondWord);
-console.log(`${firstWord} ${secondWord}`);
+console.log(firstWord + " " + secondWord);        //basic way to combine variables
+console.log(`${firstWord}${secondWord}`);  //cool way to combine variables with $$
+//the benifit of this is that it adds a space between the variables for you
+
+//seeing what happens with numbers
+const firstNumber = 10;
+const secondNumber = 5;
+
+console.log(firstNumber + " " + secondNumber);        //basic way to combine variables
+console.log(`${firstNumber}${secondNumber}`);  //cool way to combine variables with $$
+//ending in dissapointment 
