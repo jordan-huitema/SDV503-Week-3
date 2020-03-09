@@ -99,6 +99,9 @@ console.log(x);
 console.log(y);
 
 //this for operatior will count to 10 and stop
+//insdie the for scope we set a variable called i
+//then we say "run until i is greater or equal to 10"
+//and add 1 to the i variable 
 for(let i=0; i <= 10; i++) {
     console.log(i);
 };
