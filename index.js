@@ -159,3 +159,17 @@ const secondNumber = 5;
 console.log(firstNumber + " " + secondNumber);        //basic way to combine variables
 console.log(`${firstNumber}${secondNumber}`);  //cool way to combine variables with $$
 //ending in dissapointment 
+
+//numbers as a string
+console.log(10 + 5);
+console.log(10 + '5');
+console.log('10' + 5);
+console.log(10 + 10 + '5');
+console.log('10' + '10');
+
+console.log(10 - 5);
+console.log(10 - '5');
+console.log('10' * 5);
+console.log(10 + 10 - '5');
+console.log('10' / '10');
+
