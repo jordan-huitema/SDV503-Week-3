@@ -38,7 +38,7 @@ console.log(calc);
 /*----------Part 1.1----------*/
 // increment Operator 
 let x = 10;
-//pre increment
+//pre increment (adding 1 before executing the line)
 console.log(x);
 console.log(++x);   //increasing x by 1
 console.log(x);
@@ -46,9 +46,9 @@ console.log(++x);   //increasing x by 1
 console.log(x);
 console.log(++x);   //increasing x by 1
 console.log(x);
-//post increment
-let y = 10;
 
+let y = 10;
+//post increment (adding 1 after executing the line)
 console.log(y);
 console.log(y++);   //increasing x by 1 
 console.log(y);
