@@ -251,7 +251,23 @@ if ( a != b ) {
   console.log( "a is less or equal to b" );
 };
 
+console.log(10 == "5");   //equal to
+console.log(10 == "10");
 
+console.log(10 != "5");   //not equal to
+console.log(10 != "10");
+
+console.log(10 < "5");    //less than
+console.log(10 < "10");
+
+console.log(10 > "5");    //greater than
+console.log(10 > "10");
+
+console.log(10 <= "5");   //less than or equal to
+console.log(10 <= "10");
+
+console.log(10 >= "5");   //greater than or qual to
+console.log(10 >= "10");
 
 
 
