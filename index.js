@@ -60,6 +60,12 @@ console.log(y);
 console.log(y++);   //increasing x by 1
 console.log(y);
 
+//Pre increment increments the variable and then prints it to log
+//Post increment prints the variable and then increments it
+//because the computer reads from left to right y=x++ would set y as the value of x and then add to x
+//like this y = x then x++
+//Addition example
+
 x = 10;
 y = x;
 
@@ -74,6 +80,8 @@ console.log("Post - Increment");
 y = x++;
 console.log(x);
 console.log(y);
+
+//subtraction example
 
 x = 10;
 y = x;
