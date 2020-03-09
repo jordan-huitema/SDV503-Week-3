@@ -269,6 +269,73 @@ console.log(10 <= "10");
 console.log(10 >= "5");   //greater than or qual to
 console.log(10 >= "10");
 
+//is the first value the same data type as the second AND the same value
+console.log(10 === "10");
+console.log(10 === 5);
+console.log(10 === 10);
+console.log(10 === 5);
+
+//is the first value the same data type as the second AND a diffrent value
+console.log(10 !== "10");
+console.log(10 !== "5");
+console.log(10 !== 10);
+console.log(10 !== 5);
+
+//the true value is equal 1 
+//the false value is equal to 0
+console.log(true == 1);   //equal to
+console.log(true == "1"); //this treats a string as a number
+console.log(true == 0);
+console.log(false == 1);  //equal to
+console.log(false == 0);
+console.log(false == "0");//this treats a string as a number
+
+//the true value is equal 1 
+//the false value is equal to 0
+console.log(true != 1);   //not equal to
+console.log(true != "1"); //this treats a string as a number
+console.log(true != 0);
+console.log(false != 1);  //not equal to
+console.log(false != 0);
+console.log(false != "0");//this treats a string as a number
+
+console.log("A" == "A");  //this also works with text strings
+console.log("a" == "A");  //and it is case sensitive
+
+//Java asigns values to charaters and compares them (this is case sensitive)
+console.log("A" > "a");
+console.log("A" < "a");
+console.log("A" > "B");
+console.log("A" < "B");
+
+//we can also check if the values are the same character case (data tpye) AND the same values (character)
+console.log("A" === "a");
+console.log("a" === "a");
+console.log("A" === "B");
+console.log("a" === "b");
+
+
+console.log(1 == "1");    //the string is being treated as a number (1) which is equal to the number value (1)
+console.log(1 === "1");   //the string is a diffrent data type to the number
+
+console.log(1 == true);   //true is treated as a number (1) which is equal to the first value (1)
+console.log(1 === true);  //true is a diffrent data type to the number
+
+console.log(0 == false);  //false is treated as a number (0) which is equal to the first value (0)
+console.log(0 === false); //false is a diffrent data type to the number
+
+console.log(null == 0);   //null means no value and because 0 is a value 0
+console.log(null === 0);  //null is no data and 0 is a data type so the result is false
+console.log(null > 0);    //false because 0 isnt smaller than no value
+console.log(null < 0);    //false because 0 no value is not smaller than a value of 0
+console.log(null >= 0);   //>= treats null as a value of 0 because there is a lack of value, 0 is equal to 0 so the value is true
+
+console.log(undefined == null); //both values are defining a lack of value so they are equal
+console.log(undefined === null);//undefined is no value or data type and null is a data type with no value 
+
+console.log(null + 1);          //null is a data type with no value so adding 1 makes it a value of 1
+console.log(undefined > 0);     //undefinded is not a data type so cannont be greater than a value of 0
+console.log(undefined + 1);     //undefinded is not a data type so adding 1 is still no data
 
 
 
