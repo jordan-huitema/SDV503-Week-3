@@ -337,6 +337,12 @@ console.log(null + 1);          //null is a data type with no value so adding 1 
 console.log(undefined > 0);     //undefinded is not a data type so cannont be greater than a value of 0
 console.log(undefined + 1);     //undefinded is not a data type so adding 1 is still no data
 
+//----------IF AND NOT------------
 
-
+//OR ||
+//if either value is true || (or) will print true
+console.log(true || true);    //true because both values are true
+console.log(true || false);   //one of the values are true so the result is true
+console.log(false || true);   //""
+console.log(false || false);   //none of the values are true so the result is false
 
