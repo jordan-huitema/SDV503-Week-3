@@ -1,14 +1,13 @@
 /*----------Part 1.1----------*/
-/*
-Operator             Description
-   +                  Addition
-   -                 Subtraction
-   *                 Multiplication
-   /                  Division
-   %                  Modulus
-  **                 Exponentiation
+/* 09/03/2020
+//Operator             Description
+//   +                  Addition
+//   -                 Subtraction
+//   *                 Multiplication
+//   /                  Division
+//   %                  Modulus
+//  **                 Exponentiation
 
-*/
 //setting variables
 let x = 10;
 let y = 5;
@@ -35,7 +34,7 @@ console.log(result);
 x = 10 + 5;
 console.log(x);
 
-/*----------Part 1.1----------*/
+//----------Part 1.1----------
 // increment Operator 
 
 x = 10;
@@ -175,3 +174,13 @@ console.log('10' * 5);      //multiples 10 by 5, * can only be used on numbers s
 console.log(10 + 10 - '5'); //adds 10 and 10 then subtracts 5, - can only be used on numbers so the string is treated as a number
 console.log('10' / '10');   //divideds 10 by 10, / can only be used on numbers so the string is treated as a number
 
+//end of 09/03/2020
+*/
+
+//start 10/03/2020
+
+console.log( +true );   // 1, true is converted to 1 using unary plus
+console.log( +false );  // 0, false is converted to 0
+console.log( +"" );     // 0, empty string converted to 0
+
+console.log(10 + 5 * 3); // 25, First Multiplication then Addition
