@@ -161,14 +161,17 @@ console.log(`${firstNumber}${secondNumber}`);  //cool way to combine variables w
 //ending in dissapointment 
 
 //numbers as a string
-console.log(10 + 5);
-console.log(10 + '5');
-console.log('10' + 5);
-console.log(10 + 10 + '5');
-console.log('10' + '10');
+console.log("Numbers as a string");
 
-console.log(10 - 5);
-console.log(10 - '5');
-console.log('10' * 5);
-console.log(10 + 10 - '5');
-console.log('10' / '10');
+console.log(10 + 5);        //adds 10 and 5 together to get 15
+console.log(10 + '5');      //prints the number 10 followed by the number 5, they are not added together to get 15 because 5 is set as a string and not a number
+console.log('10' + 5);      //prints 10 as a string and then prints 5 as a number
+console.log(10 + 10 + '5'); //adds 10 and 10 because they are numbers and prints the number 5 as a string
+console.log('10' + '10');   //prints 1010 because both numbers are set as a string
+
+console.log(10 - 5);        //subtracts 5 from 10
+console.log(10 - '5');      //subtracts 5 from 10, - can only be used on numbers so the string is treated as a number
+console.log('10' * 5);      //multiples 10 by 5, * can only be used on numbers so the string is treated as a number
+console.log(10 + 10 - '5'); //adds 10 and 10 then subtracts 5, - can only be used on numbers so the string is treated as a number
+console.log('10' / '10');   //divideds 10 by 10, / can only be used on numbers so the string is treated as a number
+
