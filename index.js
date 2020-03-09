@@ -145,3 +145,8 @@ console.log(e);
 let f = "My name is " + "String101";
 console.log(f);
 
+const firstWord = "Hello";
+const secondWord ="World";
+
+console.log(firstWord + secondWord);
+console.log(`${firstWord} ${secondWord}`);
