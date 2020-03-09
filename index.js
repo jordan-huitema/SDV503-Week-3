@@ -340,9 +340,41 @@ console.log(undefined + 1);     //undefinded is not a data type so adding 1 is s
 //----------IF AND NOT------------
 
 //OR ||
-//if either value is true || (or) will print true
-console.log(true || true);    //true because both values are true
-console.log(true || false);   //one of the values are true so the result is true
+//if either input has a value || (or) will print true
+console.log(true || true);    //true because both inputs have a value
+console.log(true || false);   //one of the inputs have a value so the result is true
 console.log(false || true);   //""
-console.log(false || false);   //none of the values are true so the result is false
+console.log(false || false);   //none of the inputs have a value so the result is false
 
+//this works the same with number values but will returns the first input with value
+console.log(1 || 0);
+console.log(1 || 1);
+console.log(0 || 1);
+console.log(0 || 0);
+console.log(55 || 1);   //returns first input with value
+console.log(1 || 55);   //returns first input with value
+
+
+//AND &&
+//if both inputs have value then output true or the last value, else output false or no value
+console.log(true && true);    //both inputs are true so output true
+console.log(true && false);   //only one input is true so output flase
+console.log(false && true);   //""
+console.log(false && false);  //both inputs are false so output false
+
+
+console.log(1 && 0);
+console.log(1 && 1);
+console.log(0 && 1);
+console.log(0 && 0);
+console.log(55 && 1);   //returns last value
+console.log(1 && 55);   //returns last value
+
+//these can also be used in squence or inbetween muliple arguments
+console.log(1 == 1 || 0 == 0);  //both of these arguments are true so output true
+console.log(1 == 1 || 1 == 0);  //one of these arguments are ture so output true
+console.log(0 == 1 || 2 == 1);  //neither of these arguments are true so output false
+
+console.log(1 == 1 && 0 == 0);  //both of these arguments are true so output true
+console.log(1 == 1 && 1 == 0);  //only one of these arguments are true so output false
+console.log(0 == 1 && 2 == 1);  //neither of these arguments are true so output false
