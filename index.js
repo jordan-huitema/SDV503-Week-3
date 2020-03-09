@@ -119,3 +119,29 @@ y = 1;
 console.log(y);
 console.log(10 * y++);  //print 10 * y and then add 1 to y
 console.log(y);
+
+//--------Unary, Binary Operators--------
+//Unary Operator: An operator with one operand
+x = 1;
+x = -x;
+console.log(x);
+
+//Binary Operator: An operator with two operands
+x = 10;
+y = 15;
+console.log(x + y);
+
+//String Concatenation
+//The + Operatior concatenates two strings
+let a = "Hello, ";
+let b = "World!";
+console.log(a + b);
+
+let c = "I am ";
+let d = "a String";
+let e = c + d;
+console.log(e);
+
+let f = "My name is " + "String101";
+console.log(f);
+
