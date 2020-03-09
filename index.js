@@ -98,5 +98,7 @@ y = x--;
 console.log(x);
 console.log(y);
 
-/*----------Part 1.2----------*/
-//Decrement Operator
+//this for operatior will count to 10 and stop
+for(let i=0; i <= 10; i++) {
+    console.log(i);
+};
