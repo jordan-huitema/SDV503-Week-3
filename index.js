@@ -184,3 +184,76 @@ console.log( +false );  // 0, false is converted to 0
 console.log( +"" );     // 0, empty string converted to 0
 
 console.log(10 + 5 * 3); // 25, First Multiplication then Addition
+
+//Operator         Description              Example         Equals 
+let x = 10;
+let y = 5;
+//   =               Assign                 x = y           x = y
+x = y;      //sets/assigns the value of x to the value of y
+console.log(x);
+console.log(y);
+//   +=           Add and Assign            x += y          x = x + y
+x += y;     //adds the value of y to the value of x
+console.log(x);
+console.log(y);
+//   -=        Subtract and Assign          x -= y          x = x - y
+x -= y;     //subtracts the value of y from the value of x
+console.log(x);
+console.log(y);
+//   *=         Multiply and Assign         x *= y          x = x * y
+x *= y;     //multiplys the value of x by the value of y
+console.log(x);
+console.log(y);
+//   /=         Divide and Assign           x /= y          x = x / y
+x /= y;     //Divides the value of x by the value of y and sets x as the result 
+console.log(x);
+console.log(y);
+//   %=      Divide and Assign modulus      x %= y          x = x % y
+x = 65;
+y=15;
+x %= y;     //divide x by y and set x as the remainder, if y is larger than x the value will not change 
+console.log(x);
+console.log(y);
+
+//Operator       Name        
+let a = 10;
+const b = 10;
+//  ==           Equal
+if ( a == b ) {
+  console.log( "a and b are the same number" );
+};
+//  ===          Identical    // check equality of data type
+if ( a === b ) {
+  console.log( "a and b are the same number and same data types" );
+};
+//  !=           Not equal
+if ( a != b ) {
+  console.log( "a and b are diffrent numbers" );
+};
+//  !==          Not identical //check inequality of data type
+if ( a != b ) {
+  console.log( "a and b are diffrent numbers or diffrent data types" );
+};
+//  <           Less than
+if ( a < b ) {
+  console.log( "a is less than b" );
+};
+//  >           Greater than
+if ( a > b ) {
+  console.log( "a is greater than b" );
+};
+//  >=          Greater than or equal to
+if ( a >= b ) {
+  console.log( "a is greater or equal to b" );
+};
+//  <=          Less than or equal to
+if ( a != b ) {
+  console.log( "a is less or equal to b" );
+};
+
+
+
+
+
+
+
