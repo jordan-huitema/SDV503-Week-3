@@ -1,3 +1,14 @@
+/*----------Part 1.1----------
+
+Operator             Description
+   +                  Addition
+   -                 Subtraction
+   *                 Multiplication
+   /                  Division
+   %                  Modulus
+  **                 Exponentiation
+*/
+
 //setting variables
 let x = 10;
 let y = 5;
@@ -23,3 +34,5 @@ console.log(result);
 
 let calc = 10 + 5;
 console.log(calc);
+
+/*----------Part 1.1----------*/
